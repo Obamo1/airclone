@@ -43,3 +43,15 @@
   padding: 10px;
   outline-width: 0;
 }
+
+@media (max-width: 800px) {
+  .header {
+    flex-direction: column;
+  }
+  .header__center {
+    flex-direction: column;
+  }
+  /* .header__right {
+    flex-direction: column;
+  } */
+}

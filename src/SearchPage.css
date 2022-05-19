@@ -1,5 +1,7 @@
 .searchPage__info {
   padding: 20px;
+  display: flex;
+  flex-direction: row;
 }
 
 .searchPage__info > p {
@@ -15,4 +17,10 @@
   border-radius: 30px;
   text-transform: inherit;
   margin: 5px;
+}
+
+@media (max-width: 800px) {
+  .searchPage__info {
+    flex-direction: column;
+  }
 }

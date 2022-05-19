@@ -15,3 +15,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* @media only screen and (max-device-width: 480px) {
+  .header__center {
+    display: flex;
+    flex-direction: column;
+    
+  }
+} */

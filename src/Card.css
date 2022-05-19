@@ -38,3 +38,10 @@
   margin-top: 8px;
   margin-bottom: 8px;
 }
+
+/* @media (max-width: 480px) {
+  .card__info {
+    display: flex;
+    flex-direction: row;
+  }
+} */
