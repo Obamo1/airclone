@@ -1,5 +1,7 @@
 * {
   margin: 0;
+  /* display: flex;
+  flex-direction: row; */
 }
 
 body {
@@ -16,10 +18,8 @@ code {
     monospace;
 }
 
-/* @media only screen and (max-device-width: 480px) {
-  .header__center {
-    display: flex;
+/* @media (max-device-width: 800px) {
+  body {
     flex-direction: column;
-    
   }
 } */

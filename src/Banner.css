@@ -49,9 +49,9 @@
   display: flex;
   flex-direction: row;
 } */
-/* 
-Responsive layout - makes a one column layout instead of a two-column layout
-@media (max-width: 400px) {
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+/* @media (max-width: 800px) {
   .banner {
     flex-direction: row;
   }
