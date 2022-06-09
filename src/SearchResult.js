@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "./SearchResult.css";
+import FavoriteIcon from "@material-ui/icons/Favorite";
 import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 // import StarIcon from "@material-ui/icons/Star";
 import { FaStar } from "react-icons/fa";
@@ -44,16 +45,10 @@ function SearchResult({
         <div className="searchResult__infoTop">
           <p>{location}</p>
           <h3>{title}</h3>
-          <p>____</p>
           <p>{description}</p>
         </div>
         <div className="searchResult__infoBottom">
-          {/* <div className="searchResult__stars">
-            <StarIcon className="searchResult__star" />
-            <p>
-              <strong>{star}</strong>
-            </p>
-          </div> */}
+         
           <div className="container">
             <div className="stars">
             {stars.map((_, index) => {

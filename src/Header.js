@@ -22,9 +22,9 @@ function Header() {
         <SearchIcon />
       </div>
       <div className="header__right">
-        <p>Become a host</p>
-        <LanguageIcon />
-        <ExpandMoreIcon />
+        {/* <p>Become a host</p> */}
+        {/* <LanguageIcon />
+        <ExpandMoreIcon /> */}
         <Avatar />
       </div>
     </div>
